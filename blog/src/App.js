@@ -4,19 +4,19 @@ import Navbar from './templates/Navabar';
 import Banner from './templates/Banner';
 import Skills from './templates/Skills';
 import About from './templates/About';
-import CentreInteret from './templates/CentreInteret';
+import FocusPoint from './templates/FocusPoint';
+import './assets/css/bootstrap.min.css';
 
 function App() {
   return (
-    <body>
+    <body className='container'>
       <div className="App">
       <Navbar />
       </div>
     <Banner/>
     <Skills/>
     <About />
- 
-    <CentreInteret/>
+    <FocusPoint/>
     </body>
   );
 }

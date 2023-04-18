@@ -1,0 +1,23 @@
+.divin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.divin{
+    font-size: 19px;
+}
+.divin h1{
+    border: 1px solid white;padding-left: 10%;
+    margin-left: -10%;border-left: 10px solid blue;
+}
+
+.silver{
+color: gray;
+}
+body{
+    background-color: red;
+}
+.cont{
+    background-color: white;
+}
