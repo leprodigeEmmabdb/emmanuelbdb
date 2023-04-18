@@ -1,4 +1,4 @@
-const CentreIntre=()=>{
+const FocusPoint=()=>{
     return(
         <div>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquam, dignissimos eveniet illo, quis non quibusdam obcaecati doloribus, perspiciatis voluptate a. Dolores sed ducimus deleniti illo cumque porro obcaecati assumenda!
@@ -9,4 +9,4 @@ const CentreIntre=()=>{
 
     )
 }
-export default CentreIntre;
+export default FocusPoint;
