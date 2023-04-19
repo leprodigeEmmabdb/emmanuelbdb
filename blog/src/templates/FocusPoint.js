@@ -4,11 +4,11 @@ function FocusPoint() {
 
 
     return (
-        <div class="row featurette">
-            <hr class="featurette-divider"></hr>
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">ACTIVITES <span class="text-muted">préfèrences</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        <div className="row featurette">
+            <hr className="featurette-divider"></hr>
+      <div className="col-md-7">
+        <h2 className="featurette-heading fw-normal lh-1">ACTIVITES <span className="text-muted">préfèrences</span></h2>
+        <p className="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
         <div className=" d-flex justify-content-around mt-4">
            <ul >
               {
