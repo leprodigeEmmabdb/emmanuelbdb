@@ -7,15 +7,15 @@ const About=()=>{
            
         <div className="col-md-7">
           <h2 className="featurette-heading fw-normal lh-1">EDUCATION <span className="text-muted">/formation suivies</span></h2>
-           <div classNameName=" d-flex mt-4">
+           <div className=" d-flex mt-4">
            <ul >
               {
-                placeName.map((e)=>(<li>{e}</li>))
+                placeName.map((e)=>(<li key={e}>{e}</li>))
               }
             </ul>
             <ul>
               {
-                level.map((e)=>(<li classNameName="nav">: {e}</li>))
+                level.map((e)=>(<li className="nav" key={e}>: {e}</li>))
               }
             </ul>
            </div>
