@@ -16,15 +16,14 @@ function App() {
       <div className="App">
       <Navbar />
       </div>
+      <Banner/>
+      <Skills/>
+      <About />
+      <FocusPoint/>
       <Contact/>
       
     
-    {/* 
-    <Skills/>
-    <Banner/>
-    <About />
-    <FocusPoint/>
-     */}
+    
     </div>
   );
 }

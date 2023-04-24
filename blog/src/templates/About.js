@@ -3,7 +3,7 @@ const placeName=['Université de Kinshasa ','RÉV.KIM','GOOGLE ATELIER NUMERIQUE
     const level=['L3 lMD, Departement de Math-Info',"Diplômé d'Etat",'Certificat de Participation','encours . . .']
 const About=()=>{
     return(
-        <div className="row featurette my-3">
+        <div className="row featurette my-3" id='About'>
                  <hr className="featurette-divider"></hr>
 
         <div className="col-md-7">

@@ -6,7 +6,7 @@ const Skills=()=>{
 
 
     return(
-        <div className="row featurette">
+        <div className="row featurette" id='Skills'>
       <div className="col-md-7 order-md-2">
         <h2 className="featurette-heading fw-normal lh-1">COMPETENCES<span className="text-muted"> /technologies</span></h2>
         <p className="lead fs-5">En tant que développeur, je maîtrise les technologies les plus récentes(ci-dessous) et suis capable de concevoir des solutions innovantes pour répondre aux besoins relatifs à une société.</p>

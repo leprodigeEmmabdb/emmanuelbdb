@@ -7,9 +7,9 @@ function FocusPoint() {
 
 
     return (
-    <div className="row featurette">
+    <div className="row featurette" id='FocusPoint'>
       <hr className="featurette-divider"></hr>
-      <div className="col-md-7 my-5">
+      <div className="col-md-7 my-5 order-md-2">
         <h2 className="featurette-heading fw-normal lh-1">ACTIVITES <span className="text-muted">/préfèrences</span></h2>
         <p className="lead">Je suis une personne passionnée par les activités <small> ci-dessous</small> et je recherche des opportunités qui me permettront de poursuivre cette passion tout en développant mes compétences.”</p>
         <div className=" d-flex justify-content-around mt-4">
@@ -27,7 +27,7 @@ function FocusPoint() {
             </div>
            </div>
       </div>
-      <div className="col-md-5 my-2" >
+      <div className="col-md-5 my-2 order-md-1" >
         {/* <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> */}
         <img src={activity} alt='skillpicture' className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="320" height="500"/>
 

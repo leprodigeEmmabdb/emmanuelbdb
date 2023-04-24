@@ -8,12 +8,13 @@ const Navbar=()=>{
             <span className="navbar-toggler-icon"></span>
           </button>
             <ul className='collapse navbar-collapse navbar nav col-lg-1 ' id='navbarSupportedContent'>
-                <li className="nav-item"><a href="#" className="nav-link active">Accueil</a></li>
-                <li className="nav-item"><a href="#" className="nav-link ">Compétences</a></li>
-                <li  className="nav-item"><a href="#" className="nav-link ">Apropos</a></li>
-                <li className="nav-item"><a href="#" className="nav-link ">Centre d'Interet</a></li>
-                <li  className="nav-item"><a href="#" className="nav-link ">Me joindre</a></li>
+                <li className="nav-item"><a href="#Banner" className="nav-link active">Accueil</a></li>
+                <li className="nav-item"><a href="#Skills" className="nav-link ">Compétences</a></li>
+                <li  className="nav-item"><a href="#About" className="nav-link ">Apropos</a></li>
+                <li className="nav-item"><a href="#FocusPoint" className="nav-link ">Centre d'Interet</a></li>
+                <li  className="nav-item"><a href="#Contact" className="nav-link ">Me joindre</a></li>
             </ul>
+            
         </nav>
     )
 }

@@ -3,7 +3,7 @@ import {BsFillTelephoneFill} from "react-icons/bs";
 import { MdAttachEmail } from "react-icons/md";
 const Contact=()=>{
     return(
-        <div className=" px-4" >
+        <div className=" px-4" id='Contact'>
             <hr className="featurette-divider"></hr>
             <div className="h2 text-center py-4 ">Contacts</div>
             <div className="row form-floating">
