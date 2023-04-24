@@ -1,4 +1,5 @@
 import skill from '../assets/skill.png';
+
 const Skills=()=>{
     const skills=['Développer Front-End ','Développer Back-End ','DÉVELOPPEUR MOBILE','Travailler  en équipe','Utilisation des outils des travaux en equipe (GIT,GITHUB,GITLAB)']
     const skillbar=[0.6,0.7,0.9,0.5,0.8,0.4]
@@ -9,19 +10,18 @@ const Skills=()=>{
       <div className="col-md-7 order-md-2">
         <h2 className="featurette-heading fw-normal lh-1">COMPETENCES<span className="text-muted"> /technologies</span></h2>
         <p className="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-        <div className=" d-flex justify-content-around mt-4">
-           <ul >
-              {
-                skills.map((e)=>(<li key={e}>{e}</li>))
+        <div className="row">
+           <div className="col">
+           {
+                skills.map((e)=>(<div key={e}>{e}</div>))
               }
-            </ul>
-            <ul className="col-5">
-              {
-                skillbar.map((e)=>(
-                <li className="nav" key={e}><progress  value={e}/> {e*100}%</li>
-                ))
+           </div>
+            
+           <div className="col">
+            {
+                  skillbar.map((e)=>(<div className="nav" key={e}><ProgressBar  value={e}/> {e*100}%</div>))
               }
-            </ul>
+           </div>
            </div>
       </div>
       <div className="col-md-5 order-md-1">

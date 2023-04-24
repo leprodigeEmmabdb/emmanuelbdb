@@ -7,6 +7,7 @@ import About from './templates/About';
 import FocusPoint from './templates/FocusPoint';
 import './assets/css/bootstrap.min.css';
 import Contact from './templates/Contact';
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 
 function App() {
@@ -15,11 +16,13 @@ function App() {
       <div className="App">
       <Navbar />
       </div>
+      <Skills/>
+    
+    {/* 
     <Banner/>
-    <Skills/>
     <About />
     <FocusPoint/>
-    <Contact/>
+    <Contact/> */}
     </div>
   );
 }
