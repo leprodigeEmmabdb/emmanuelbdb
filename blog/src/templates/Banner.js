@@ -53,12 +53,12 @@ const Banner=(event)=>{
                     <div className="mx-auto p-3 rounded-4 bg-success col-8 my-3 text-center colg-lg-8 text-light fw-bold">
                     Naviguez
                     </div>
-                    <div className="row col-lg-12">
-                        <div className="border rounded-circle m-1 py-2 text-center col"><BsFillTelephoneFill cursor="pointer"/></div>
-                        <div className="border rounded-circle m-1 py-2 text-center col"><FaFacebookF color='blue' cursor="pointer"/></div>
-                        <div className="border rounded-circle m-1 py-2 text-center col"><FaLinkedinIn color='red'cursor="pointer"/></div>
-                        <div className="border rounded-circle m-1 py-2 text-center col"><FiInstagram color='yellow'cursor="pointer"/></div>
-                        <div className="border rounded-circle m-1 py-2 text-center col"><BsGithub cursor="pointer"/></div>
+                    <div className="row col-lg-12  px-8" id='mesliens'>
+                        <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center col" id='call'><BsFillTelephoneFill cursor="pointer"/></div>
+                        <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center col" id='facebook'><FaFacebookF cursor="pointer"/></div>
+                        <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center col" id='linkdin'><FaLinkedinIn cursor="pointer"/></div>
+                        <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center col" id='instagram'><FiInstagram cursor="pointer"/></div>
+                        <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center col" id='github'><BsGithub cursor="pointer"/></div>
 
                     </div>
        

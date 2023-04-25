@@ -7,5 +7,58 @@
 .infoline{
     background-color: #135f3b !important;
 }
+#facebook:hover{
+    border: 1px solid #fff;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+#facebook{
+    border-left: 1px solid #fff;
+    color: blue;
+    border: 1px solid blue;
+    transition: 1s ;
+}
+#linkdin:hover{
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+#linkdin{
+    color: #000;
+    border: 1px solid #000;
+    transition: 1s ;
+}
+#instagram:hover{
+    border: 1px solid #fff;
+    background-color: #DE5391;
+    color: #fff;
+    cursor: pointer;
+}
+#instagram{
+    color: #DE5391;
+    border: 1px solid #DE5391;
+    transition: 1s ;
+}
+#github:hover{
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+#github{
+    color: #000;
+    border: 1px solid #000;
+    transition: 1s ;
+}
+#call{
+    border: 1px solid #000;
+    transition: 0.3s ease-in;
+}
+
+#mesliens{
+    overflow: hidden;
+}
 
 
