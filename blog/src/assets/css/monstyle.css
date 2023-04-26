@@ -1,64 +1,60 @@
+*{
+    font-family:Arial, Helvetica, sans-serif !important;
+}
 .plus{
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
 }
-.infoline{
-    background-color: #135f3b !important;
-}
-#facebook:hover{
-    border: 1px solid #fff;
-    background-color: blue;
-    color: #fff;
-    cursor: pointer;
-}
-#facebook{
-    border-left: 1px solid #fff;
-    color: blue;
-    border: 1px solid blue;
-    transition: 1s ;
-}
-#linkdin:hover{
-    border: 1px solid #fff;
-    background-color: #000;
-    color: #fff;
-    cursor: pointer;
-}
-#linkdin{
-    color: #000;
-    border: 1px solid #000;
-    transition: 1s ;
-}
-#instagram:hover{
-    border: 1px solid #fff;
-    background-color: #DE5391;
-    color: #fff;
-    cursor: pointer;
-}
-#instagram{
-    color: #DE5391;
-    border: 1px solid #DE5391;
-    transition: 1s ;
-}
-#github:hover{
-    border: 1px solid #fff;
-    background-color: #000;
-    color: #fff;
-    cursor: pointer;
-}
-#github{
-    color: #000;
-    border: 1px solid #000;
-    transition: 1s ;
-}
-#call{
-    border: 1px solid #000;
-    transition: 0.3s ease-in;
-}
+
+
 
 #mesliens{
     overflow: hidden;
 }
+/* #navbarSupportedContent li::after{
+    content: '';
+    border-bottom: 20px solid red;
+    padding: 0px 100px;
+    margin-top: -50px;
+} */
+#navbarSupportedContent li a{
+    color: black !important;
+    font-size: 18px;
+    text-transform:inherit;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: 1s all;
+}
+#navbarSupportedContent li a:hover{
+    color: green !important;
+   
+}
+#blocProfile{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:#3a3b2e85  ;
+    /* animation: anime-logo-profil 2s linear infinite alternate-reverse; */
+    box-shadow: 0px 0px 1px 300px #3a3b2e85;
+}
+#logoProfile{
+    border-bottom-right-radius: 0% !important;
+    box-shadow: 0px 0px 10px 2px #ffffffb0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    animation: anime-logo-profil 2s linear infinite alternate-reverse;
+   
+}
+@keyframes  anime-logo-profil {
+    from{
+        transform:translateY(-15px);
+    }
+    to{
+        transform: translateY(15px);
+    }
+}
+
 
 

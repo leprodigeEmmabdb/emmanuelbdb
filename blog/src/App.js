@@ -17,10 +17,10 @@ function App() {
       <Navbar />
       </div>
       <Banner/>
-      <Skills/>
+      {/* <Skills/>
       <About />
       <FocusPoint/>
-      <Contact/>
+      <Contact/> */}
       
     
     

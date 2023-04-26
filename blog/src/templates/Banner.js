@@ -5,8 +5,7 @@ import {FaLinkedinIn} from "react-icons/fa";
 import {BsGithub} from "react-icons/bs";
 import {BsFillTelephoneFill} from "react-icons/bs";
 import '../assets/css/monstyle.css';
-import { setState } from 'react';
-import { Route } from 'react-router';
+
 import { Typed } from "react-typed";
 
 
@@ -44,13 +43,13 @@ const Banner=(event)=>{
 
     return(
         
-        <div className="d-flex my-5 container justify-content-between flex-wrap p-3 " id='Banner'>
+        <div className="d-flex container justify-content-between flex-wrap " id='Banner'>
             <div className='col-lg-6 col-8 my-5 col-sm '>
                 <h1>Bienvenu(e) sur mon blog</h1>
                 <p className='fs-5'>Je suis <span className='navbar-brand text-secondary fw-bold fs-4' >Emmanuel Badibanga</span>, Informaticien de formation et passionné  des nouvelles technologies</p>
                 <p>Je suis  developper <handleTyped/></p>
                 <div className='col-lg-8 col-8 fs-4 m-4'>
-                    <div className="mx-auto p-3 rounded-4 bg-success col-8 my-3 text-center colg-lg-8 text-light fw-bold">
+                    <div className="mx-auto p-2 rounded-4 bg-success col-8 my-3 text-center colg-lg-6 text-light fw-bolder">
                     Naviguez
                     </div>
                     <div className="row col-lg-12  px-8" id='mesliens'>
@@ -66,8 +65,10 @@ const Banner=(event)=>{
                 
                 </div>
             </div>
-            <div className=' offset-1 col-lg-5 col-10  rounded-circle bg-warning border' >
-                <img src={profileIcon} alt="" className='image-fluide ' width={400} height={450}/>
+            <div className=' offset-1 col-lg-5 col-10  rounded-circle  'id='blocProfile'  >
+                <div className="rounded-circle bg-light col-lg-12  " id='logoProfile' >
+                <img src={profileIcon} alt="" className='image-fluide ' width={345} height={400}/>
+                </div>
             </div>
         </div>
     )
