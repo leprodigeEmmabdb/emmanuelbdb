@@ -19,13 +19,25 @@
     padding: 0px 100px;
     margin-top: -50px;
 } */
-#navbarSupportedContent li a{
-    color: black !important;
+#navlink li a{
+    background-color:#3a3b2e00 ;
+    color: #fff;
+    border-radius: 100px;
+    border: 1px solid #ffffff0c;
     font-size: 18px;
     text-transform:inherit;
     font-family:Arial, Helvetica, sans-serif;
-    transition: 1s all;
+    transition: 0.7s all;
 }
+
+
+#navlink li a:hover,#navlink li a:active{
+    border-radius: 100px;
+    box-shadow: 0px 0px 2px 10px #fff;
+    scale: 1.1;
+
+}
+
 #navbarSupportedContent li a:hover{
     color: green !important;
    
