@@ -1,0 +1,103 @@
+*{
+    font-family:Arial, Helvetica, sans-serif !important;
+}
+/* body{
+    overflow: hidden;
+} */
+.plus{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+#mesliens{
+    overflow: hidden;
+}
+/* #navbarSupportedContent li::after{
+    content: '';
+    border-bottom: 20px solid red;
+    padding: 0px 100px;
+    margin-top: -50px;
+} */
+#navlink li a{
+    background-color:#3a3b2e00 ;
+    color: #fff;
+    border-radius: 100px;
+    border: 1px solid #ffffff0c;
+    font-size: 18px;
+    text-transform:inherit;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: 0.7s all;
+}
+
+
+#navlink li a:hover,#navlink li a:active{
+    border-radius: 100px;
+    
+    scale: 1.1;
+    border-top-right-radius: 0% !important;
+    border-bottom-left-radius: 0% !important;
+    animation: anime-icone-bloc 0.6s linear infinite alternate-reverse;
+}
+
+#navbarSupportedContent li a:hover{
+    color: green !important;
+   
+}
+
+#blocProfile{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:#3a3b2e85  ;
+    /* animation: anime-logo-profil 2s linear infinite alternate-reverse; */
+    box-shadow: 0px 0px 1px 300px #3a3b2e85;
+}
+#logoProfile{
+    border-bottom-right-radius: 0% !important;
+    box-shadow: 0px 0px 10px 2px #ffffffb0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    animation: anime-logo-profil 2s linear infinite alternate-reverse ;
+   
+}
+#iconeBloc{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 100px;
+    
+    /* animation: anime-icone-bloc 0.5s linear infinite ; */
+}
+
+@keyframes anime-icone-bloc {
+    from{
+        box-shadow: 0px 0px 0px 2px #ffffff5e;
+        margin: 0%;
+       
+    }
+
+    to{
+        box-shadow: 0px 0px 2px 4px #fffcfc28;
+        margin: 0%;
+    }
+ 
+
+
+    
+}
+@keyframes  anime-logo-profil {
+    from{
+        transform:translateY(-55px);
+    }
+    to{
+        transform: translateY(-20px);
+    }
+}
+
+
+
