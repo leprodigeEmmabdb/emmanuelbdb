@@ -8,9 +8,6 @@ import '../assets/css/monstyle.css';
 
 
 
-
-
-
 const Banner=(event)=>{
 
     return(
