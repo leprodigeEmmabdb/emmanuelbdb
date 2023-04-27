@@ -6,48 +6,20 @@ import {BsGithub} from "react-icons/bs";
 import {BsFillTelephoneFill} from "react-icons/bs";
 import '../assets/css/monstyle.css';
 
-import { Typed } from "react-typed";
+
 
 
 
 
 const Banner=(event)=>{
-    const handleTyped=()=>{
-        return (
-            <div>
-                <Typed
-                    strings={['Here you can find anything']}
-                    typeSpeed={40}
-                />
-                <br/>
- 
-                <Typed
-                strings={[
-                    'Search for products',
-                    'Search for categories',
-                    'Search for brands']}
-                    typeSpeed={40}
-                    backSpeed={50}
-                    attr="placeholder"
-                    loop >
-                    <input type="text"/>
-                </Typed>
-            </div>
-        )
-    }
-
-    const handleClickIcon=(event)=>{
-        // event.target+="bonjour"
-        console.log(event.target.innerHTML)
-    }
 
     return(
         
-        <div className="d-flex container justify-content-between flex-wrap " id='Banner'>
+        <div className="d-flex container justify-content-between flex-wrap my-5" id='banner'>
             <div className='col-lg-6 col-8 my-5 col-sm '>
                 <h1>Bienvenu(e) sur mon blog</h1>
                 <p className='fs-5'>Je suis <span className='navbar-brand text-secondary fw-bold fs-4' >Emmanuel Badibanga</span>, Informaticien de formation et passionné  des nouvelles technologies</p>
-                <p>Je suis  developper <handleTyped/></p>
+                <p>Je suis  developper </p>
                 <div className='col-lg-8 col-8 fs-4 m-4'>
                     <div className="mx-auto p-2 rounded-4 bg-success col-8 my-3 text-center colg-lg-6 text-light fw-bolder">
                     Naviguez

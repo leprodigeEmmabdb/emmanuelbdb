@@ -7,6 +7,8 @@ import About from './templates/About';
 import FocusPoint from './templates/FocusPoint';
 import './assets/css/bootstrap.min.css';
 import Contact from './templates/Contact';
+import  "./assets/css/monstyle.css";
+import Bulk from './templates/Bulk';
 
 
 
@@ -16,11 +18,14 @@ function App() {
       <div className="App">
       <Navbar />
       </div>
+      <div className="body">
       <Banner/>
-      {/* <Skills/>
+      <Skills/>
       <About />
       <FocusPoint/>
-      <Contact/> */}
+      <Bulk/>
+      <Contact/>
+      </div>
       
     
     

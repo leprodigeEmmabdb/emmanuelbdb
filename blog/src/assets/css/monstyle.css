@@ -1,6 +1,9 @@
 *{
     font-family:Arial, Helvetica, sans-serif !important;
 }
+/* body{
+    overflow: hidden;
+} */
 .plus{
     display: inline-flex;
     flex-direction: column;
@@ -33,15 +36,18 @@
 
 #navlink li a:hover,#navlink li a:active{
     border-radius: 100px;
-    box-shadow: 0px 0px 2px 10px #fff;
+    
     scale: 1.1;
-
+    border-top-right-radius: 0% !important;
+    border-bottom-left-radius: 0% !important;
+    animation: anime-icone-bloc 0.6s linear infinite alternate-reverse;
 }
 
 #navbarSupportedContent li a:hover{
     color: green !important;
    
 }
+
 #blocProfile{
     display: flex;
     justify-content: center;
@@ -56,15 +62,40 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    animation: anime-logo-profil 2s linear infinite alternate-reverse;
+    animation: anime-logo-profil 2s linear infinite alternate-reverse ;
    
+}
+#iconeBloc{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 100px;
+    
+    /* animation: anime-icone-bloc 0.5s linear infinite ; */
+}
+
+@keyframes anime-icone-bloc {
+    from{
+        box-shadow: 0px 0px 0px 2px #ffffff5e;
+        margin: 0%;
+       
+    }
+
+    to{
+        box-shadow: 0px 0px 2px 4px #fffcfc28;
+        margin: 0%;
+    }
+ 
+
+
+    
 }
 @keyframes  anime-logo-profil {
     from{
-        transform:translateY(-15px);
+        transform:translateY(-55px);
     }
     to{
-        transform: translateY(15px);
+        transform: translateY(-20px);
     }
 }
 
