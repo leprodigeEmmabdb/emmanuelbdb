@@ -10,7 +10,6 @@ import Contact from './templates/Contact';
 import  "./assets/css/monstyle.css";
 import Bulk from './templates/Bulk';
 import AOS from 'aos';
-import Aos from 'aos';
 
 
 
@@ -23,16 +22,12 @@ function App() {
       <Navbar />
       </div>
       <div className="body">
-        <div data-aos="fade-up"> <Banner /></div>
-        <div data-aos="fade-right" data-aos-delay="100"><Skills/></div>
-        <div data-aos="fade-left" data-aos-delay="50" ><About /></div>
-       
-      {/* 
-      
-      
-      <FocusPoint/>
-      <Bulk/>
-      <Contact/> */}
+        <div data-aos="fade-down"> <Banner /></div>
+        <div data-aos="fade-up-right" data-aos-delay="100"><Skills/></div>
+        <div data-aos="fade-up-left" data-aos-delay="50" ><About /></div>
+        <div data-aos="flip-left"><FocusPoint/></div>
+        <div data-aos="fade-up-left"> <Bulk/></div>
+        <div data-aos="fade-up-left"> <Contact/></div>
       </div>
       
     

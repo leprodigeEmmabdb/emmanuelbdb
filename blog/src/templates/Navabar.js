@@ -1,5 +1,6 @@
 import '../assets/css/monstyle.css';
 import logo from '../assets/logo.png'
+import { Link } from "react-router-dom";
 const Navbar=()=>{
     return (
         <nav className='navbar justify-content-between navbar-expand-lg  ' >
@@ -10,7 +11,7 @@ const Navbar=()=>{
             <ul className='collapse navbar-collapse navbar nav col-lg-1 offset-1 ' id='navlink'>
                 <li className="nav-item "><a href="#" className="nav-link ">Accueil</a></li>
                 <li className="nav-item"><a href="#Skills" className="nav-link ">Compétences</a></li>
-                <li  className="nav-item"><a href="#About" className="nav-link ">Apropos</a></li>
+                <li  className="nav-item"><a href="#about" className="nav-link ">Apropos</a></li>
                 <li className="nav-item"><a href="#FocusPoint" className="nav-link ">Centre d'Interet</a></li>
                 <li  className="nav-item"><a href="#Contact" className="nav-link ">Me joindre</a></li>
             </ul>
