@@ -17,11 +17,11 @@ const Banner=(event)=>{
                 <h1>Bienvenu(e) sur mon blog</h1>
                 <p className='fs-5'>Je suis <span className='navbar-brand text-secondary fw-bold fs-4' >Emmanuel Badibanga</span>, Informaticien de formation et passionné  des nouvelles technologies</p>
                 <p>Je suis  developper </p>
-                <div className='col-lg-8 col-8 fs-4 m-4'>
+                <div className='col-lg-8 col-8 fs-4 m-5'>
                     <div className="mx-auto p-2 rounded-4 bg-success col-8 my-3 text-center colg-lg-6 text-light fw-bolder">
                     Naviguez
                     </div>
-                    <div className="row col-lg-12  px-8" id='mesliens'>
+                    <div className="row col-lg-12  p-8" id='mesliens'>
                         <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center col" id='call'><BsFillTelephoneFill cursor="pointer"/></div>
                         <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center col" id='facebook'><FaFacebookF cursor="pointer"/></div>
                         <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center col" id='linkdin'><FaLinkedinIn cursor="pointer"/></div>
