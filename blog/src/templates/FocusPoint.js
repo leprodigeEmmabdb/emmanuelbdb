@@ -3,7 +3,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 
 function FocusPoint() {
     const skills = ['Football ', 'Lecture ','Voyage','sport Intellectuels'];
-    const skillbar = [90, 60,70,91];
+    const skillbar = [90, 60,70,89];
 
 
     return (
