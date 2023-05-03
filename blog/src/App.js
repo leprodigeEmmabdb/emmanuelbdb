@@ -26,8 +26,10 @@ function App() {
         <div data-aos="fade-up-right" data-aos-delay="100"><Skills/></div>
         <div data-aos="fade-up-left" data-aos-delay="50" ><About /></div>
         <div data-aos="flip-left"><FocusPoint/></div>
+        <div className="fade-down"data-aos-delay="150">
         <div data-aos="fade-up-left"> <Bulk/></div>
-        <div data-aos="fade-up-left"> <Contact/></div>
+        <div data-aos="fade-up-right"> <Contact/></div>
+        </div>
       </div>
       
     
