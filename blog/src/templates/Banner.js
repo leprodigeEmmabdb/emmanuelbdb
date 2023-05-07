@@ -7,7 +7,6 @@ import {BsFillTelephoneFill} from "react-icons/bs";
 import '../assets/css/monstyle.css';
 
 
-
 const Banner=(event)=>{
 
     return(
@@ -22,11 +21,11 @@ const Banner=(event)=>{
                     Naviguez
                     </div>
                     <div className="row col-lg-12  p-8" id='mesliens'>
-                        <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center col" id='call'><BsFillTelephoneFill cursor="pointer"/></div>
-                        <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center col" id='facebook'><FaFacebookF cursor="pointer"/></div>
-                        <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center col" id='linkdin'><FaLinkedinIn cursor="pointer"/></div>
-                        <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center col" id='instagram'><FiInstagram cursor="pointer"/></div>
-                        <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center col" id='github'><BsGithub cursor="pointer"/></div>
+                        <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center border col" id='call'><BsFillTelephoneFill cursor="pointer"/></div>
+                        <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center border col" id='facebook'><FaFacebookF cursor="pointer"/></div>
+                        <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center border col" id='linkdin'><FaLinkedinIn cursor="pointer"/></div>
+                        <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center border col" id='instagram'><FiInstagram cursor="pointer"/></div>
+                        <div className=" rounded-circle m-1 py-3 d-flex justify-content-center align-content-center text-center border col" id='github'><BsGithub cursor="pointer"/></div>
 
                     </div>
        
