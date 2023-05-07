@@ -1,6 +1,6 @@
 import '../assets/css/monstyle.css';
-import logo from '../assets/logo.png'
-import { Link } from "react-router-dom";
+import logo from '../assets/logo.png';
+
 const Navbar=()=>{
     return (
         <nav className='navbar justify-content-between navbar-expand-lg  ' >
